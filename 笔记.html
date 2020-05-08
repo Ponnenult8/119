@@ -1,0 +1,17 @@
+git log  查看历史提交日志
+git log --oneline  看到精简版日志
+回到指定版本
+git reset   --hard Head~0  表示回退到上一次代码提交时的状态
+gir reset   --hard Head~1  表示回退到上上次代码提交时的状态
+
+git reset --hard [版本号]   
+
+git reflog 可以看到每一次切换版本的记录
+
+默认有一个主分支master
+git branch dev  创建dev分支  刚创建时里面的东西和master一样
+git branch   可以查看当前有哪些分支
+git checkout dev    切换到指定分支
+git merge dev  合并dev和master
+提交代码到gith
+git push address master
